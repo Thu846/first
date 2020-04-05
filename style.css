@@ -1,0 +1,40 @@
+*{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            font-family: 'Chewy', cursive;
+        }
+        .box{
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: #000000;  /* fallback for old browsers */
+            background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+        }
+
+        .text-box{
+
+        }
+        .title{
+            font-size: 15em;
+            background-image: url("https://www.hot-dinners.com/images/stories/blog/2019/happylamb.jpg");
+            background-size: cover;
+            background-clip: text;
+            -webkit-background-clip: text;
+            color: #FFFFFF10;
+        }
+        .para{
+            font-size: 3em;
+            display: flex;
+            align-items: center;
+            color: #ff4974;
+
+        }
+        .pot{
+            margin-left: 20px;
+            fill: #ff4974;
+        }
